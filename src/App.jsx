@@ -3,11 +3,11 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import Sidebar from "../components/Sidebar";
-import Logo from "../components/Logo";
-import TopHeader from "../components/TopHeader";
-import SalesInfoSearch from "../components/SalesInfoSearch";
-import Table from "../components/Table";
+import Sidebar from "./components/Sidebar";
+import Logo from "./components/Logo";
+import TopHeader from "./components/TopHeader";
+import SalesInfoSearch from "./components/SalesInfoSearch";
+import Table from "./components/Table";
 
 function App() {
   return (
@@ -30,3 +30,5 @@ function App() {
 }
 
 export default App;
+
+
